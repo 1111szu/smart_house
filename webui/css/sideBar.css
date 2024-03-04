@@ -7,7 +7,7 @@
   width: 15vw;
   background-color: #b9e8ff;
   position: absolute;
-  height: 85%;
+  height: 100%;
   float: left;
 }
 
@@ -15,7 +15,6 @@
 .sidebar ul {
   margin-top: 0;
   padding-left: 0;
-  background-color: #BEF8FF;
 }
 .sidebar li {
   display: block;
@@ -27,13 +26,13 @@
 
 /* 活动/当前链接 */
 .sidebar li.active {
-  background-color: #16848e;
-  color: rgb(230, 239, 216);
+  background-color: #94bec2;
+  color: rgb(51, 51, 51);
 }
 
 /* 鼠标悬停链接 */
 .sidebar li:hover:not(.active) {
-  background-color: #5F757F;
-  color: white;
+  background-color: #92c1d7;
+  color: rgb(73, 73, 73);
 }
 
